@@ -6,8 +6,8 @@ def find_even_values(src)
   
     counter1 = 0  
     while counter1 < src[counter].count
-     
-    counter1 +=1
+     all << src[counter][counter1]
+     counter1 +=1
     end
     
   counter +=1
