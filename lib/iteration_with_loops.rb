@@ -5,19 +5,19 @@ def find_even_values(src)
   while counter < src.count 
   
     counter1 = 0  
-    while counter1 < src[counter].count
+    while counter1 < src[counter1].count
      all << src[counter][counter1]
      counter1 +=1
     end
     
   counter +=1
 end
- counter_3 = 0
-  while counter_3 < all.length 
-   if all[counter_3] % 2== 0 
+ even_ele = 0
+  while even_ele < all.length 
+   if all[even] % 2== 0 
      even << all[counter_3]
      
-    counter3 +=1 
+    even_ele +=1 
   end
 end
 
