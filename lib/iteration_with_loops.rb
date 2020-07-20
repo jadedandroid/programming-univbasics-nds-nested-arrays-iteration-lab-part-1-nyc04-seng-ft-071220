@@ -12,14 +12,14 @@ def find_even_values(src)
     
   counter +=1
 end
- even_ele = 0
-  while even_ele < all.length 
-   if all[even] % 2== 0 
-     even << all[counter_3]
+# even_ele = 0
+ # while even_ele < all.length 
+  # if all[even] % 2== 0 
+   #  even << all[counter_3]
      
-    even_ele +=1 
-  end
-end
+    #even_ele +=1 
+#  end
+#end
 
 even
   
