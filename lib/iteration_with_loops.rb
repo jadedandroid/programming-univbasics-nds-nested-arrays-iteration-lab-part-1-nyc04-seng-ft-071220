@@ -12,7 +12,8 @@ def find_even_values(src)
     end
     
   counter +=1
-  binding.pry
+end
+ binding.pry
 end
 # even_ele = 0
  # while even_ele < all.length 
