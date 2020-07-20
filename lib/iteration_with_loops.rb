@@ -2,11 +2,11 @@ def find_even_values(src)
   counter = 0 
   all = []
   even = []
-  while counter < src.size 
+  while counter < src.count 
   
     counter1 = 0  
-    while counter1 < src[counter].size
-    all << src[counter]
+    while counter1 < src[counter].count
+     
     counter1 +=1
     end
     
