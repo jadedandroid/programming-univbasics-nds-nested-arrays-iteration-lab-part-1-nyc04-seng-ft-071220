@@ -5,7 +5,7 @@ def find_even_values(src)
   while counter < src.count 
   
     counter1 = 0  
-    while counter1 < src[counter1].count
+    while counter1 < src[counter1].size
      all << src[counter][counter1]
      counter1 +=1
     end
